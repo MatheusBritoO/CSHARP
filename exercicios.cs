@@ -115,15 +115,14 @@ namespace Cap202204ConsoleApp
         }
 
 ---------------------------------------------------------------------------------------------------
-        public static void Desafio_005()
+             public static void Desafio_005()
             {
-
-            Console.WriteLine("Informe o numero US$: ");
+            Console.WriteLine("Informe o numero reais: ");
             string us = Console.ReadLine();
             decimal num = Convert.ToDecimal(us);
 
-            decimal reais = num * 5;
-            Console.WriteLine("O valor em reais é {0}", reais);
+            decimal dollar = num / 5;
+            Console.WriteLine("O valor em dolares é {0}", dollar);
             }
     }
 }

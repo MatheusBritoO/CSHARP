@@ -79,7 +79,7 @@ namespace Cap202204ConsoleApp
             string nota2 = Console.ReadLine();
             int num2 = Convert.ToInt32(nota2);
 
-            double media = (num + num2) / 2;
+            double media = Convert.ToDouble(num + num2) / 2;
             Console.WriteLine("O valor da sua média é {0}",media);
 
         }

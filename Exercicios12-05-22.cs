@@ -220,4 +220,26 @@ public static void Desafio_028()
             Console.WriteLine("Valor da prestação {0}.", num + (num * (num1 / 100)));
         }
 ------------------------------------------------------------------------------------------------------------------
-
+ public static void Desafio_030()
+{
+float Maior = 0;
+float Menor = 0;
+for (int i = 0; i < 5; i++)
+{
+      Console.Write("informe 5 numeros: ");
+     float num = Convert.ToSingle(Console.ReadLine());
+     if(i == 0) 
+    {
+       Maior = nun;
+       Menor = num;      
+    }
+     else if (num > Maior)
+     {
+        Maior = num;
+     } 
+      else if (num < Menor)
+      {
+        Menor = num;
+      }   
+      Console.WriteLine("O maior numero é {0} e o menor é {1}.", Maior , Menor);
+}

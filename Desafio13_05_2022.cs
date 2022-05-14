@@ -77,7 +77,19 @@
  ------------------------------------------------------------------------------------------ 
         public static void Desafio_033()
         {
-
+          List<string> lista = listaDeNomes2();
+            List<int> idade = new List<int>();
+            int contador = 0;
+            for (int i = 0; i < 10; i++)
+            {
+                Console.Write("Digite a idade do aluno {0}: ", lista[i]);
+                idade.Add(Convert.ToInt32(Console.ReadLine()));
+                if (idade[i] > 18)
+                {
+                    contador++;
+                }
+            }
+            Console.WriteLine("{0} alunos possuem mais 18 anos.", contador);
         }
 
  ------------------------------------------------------------------------------------------ 
@@ -95,8 +107,67 @@
             {
                 Console.Write(i +"-");
             }                                      
+       }
+ -----------------------------------------------------------------------------------------------
+       public static void Desafio_036()
+        {
+            List<string> lista = listaDeNomes2();
+            List<int> idade = new List<int>();
+            List<string> pais = new List<string>();
+            int contador = 0;
+            int cont = 0;
+            for (int i = 0; i < 10; i++)
+            {
+                Console.Clear();
+                Console.Write("Digite a idade do aluno {0}: ", lista[i]);
+                idade.Add(Convert.ToInt32(Console.ReadLine()));
+                Console.WriteLine("Digite a nacionalidade do aluno {0}: ", lista[i]);
+                pais.Add(Console.ReadLine());
+                if (idade[i] >= 16 && (pais[i] == "brasileiro" || pais[i] == "brasileira"))
+                {
+                    contador++;
+                }
+                else
+                {
+                    cont++;
+                }
+            }
+            for (int x = 0; x < 10; x++)
+            {
+                Console.WriteLine("aluno {0}, idade {1}, nacionalidade {2}.", lista[x], idade[x], pais[x]);
+            }
+            Console.WriteLine("{0} sao os alunos que podem votar .", contador);
+            Console.WriteLine("{0}sao os alunos que não podem votar.", cont);
         }
- ------------------------------------------------------------------------------------------ 
+------------------------------------------------------------------------------------------ 
+       public static void Desafio_037()
+        {
+
+            List<string> lista = listaDeNomes2();
+            List<float> salario = new List<float>();
+            List<double> rejust = new List<double>();
+            for (int i = 0; i < lista.Count(); i++)
+            {
+                Console.Write("Informe  o salário {0}: ", lista[i]);
+                salario.Add(Convert.ToSingle(Console.ReadLine()));
+                if (salario[i] <= 300)
+                {
+                    double reajuste = salario[i] * 0.5;
+                    rejust.Add(salario[i] + reajuste);
+                }
+                else
+                {
+                    double reajuste = salario[i] * 0.3;
+                    rejust.Add(salario[i] + reajuste);
+                }
+            }
+            for (int x = 0; x < lista.Count(); x++)
+            {
+                Console.WriteLine("Funcionário {0}, Seu salario foi reajustado em {1} reais.", lista[x], rejust[x]);
+            }
+        }
+
+------------------------------------------------------------------------------------------ 
         public static void Desafio_038()
         {
             for (int i = 1; i <= 100; i++)
@@ -113,15 +184,50 @@
             }           
         }
  ------------------------------------------------------------------------------------------ 
-        public static void Desafio_039()
+          static void Desafio_039()
         {
-            for (int i = 0; i <= 120; i++)
+            for (int i = 1; i < 120; i++)
             {
-               
-                if (i / 3 != 0)  
+                if (i % 3 == 0 && i % 4 == 0)
                 {
-                Console.WriteLine(i);
+                    Console.WriteLine(i + ",");
                 }
             }
-
+        }
+ ------------------------------------------------------------------------------------------ 
+  static void Desafio_040()
+        {
+            List<string> lista = listaDeNomes2();
+            List<float> altura = new List<float>();
+            List<double> matricula = new List<double>();
+            double maior = 0;
+            double menor = 0;
+            double codmaior = 0;
+            double codmenor = 0;
+            for (int i = 0; i < 10; i++)
+            {
+                Console.Write("Digite a altura do aluno {0}: ", lista[i]);
+                altura.Add(Convert.ToSingle(Console.ReadLine()));
+                Console.WriteLine("Informe o número da matrícula {0}: ", lista[i]);
+                matricula.Add(1000 + i);
+                if (i == 0)
+                {
+                    maior = altura[i];
+                    menor = altura[i];
+                    codmais = matricula[i];
+                    codmeno = matricula[i];
+                }
+                else if (altura[i] > maior)
+                {
+                    maior = altura[i];
+                    codmaior = matricula[i];
+                }
+                else if (altura[i] < menor)
+                {
+                    menor = altura[i];
+                    codmenor = matricula[i];
+                }
+            }
+                Console.WriteLine("O aluno mais baixo possui {0} de altura, múmero de matrícula = {1}", menor, codmenor);
+                Console.WriteLine("O aluno mais alto possui {0} de altura, múmero de matrícula = {1}", maior, codmaior);
         }

@@ -1,31 +1,3 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@MatheusBritoO 
-profluizao
-/
-PSGCAP202204
-Public
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-PSGCAP202204/CSharp/Desafio045.cs /
-@profluizao
-profluizao Create Desafio045.cs
-Latest commit 76f3b4b 17 hours ago
- History
- 1 contributor
-333 lines (321 sloc)  12.3 KB
-  
 using Cap202204ConsoleApp.FakeDB;
 using Cap202204ConsoleApp.Models;
 using System;

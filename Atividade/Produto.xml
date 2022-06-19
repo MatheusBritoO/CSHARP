@@ -1,0 +1,32 @@
+<IdProduto>10</IdProduto>
+<DescricaoProduto>Coca-Cola 2L</DescricaoProduto>
+<Situacao>true</Situacao>
+<IdSubcategoria>7</IdSubcategoria>
+<IdCategoria>6</dCategoria>
+
+<IdProduto>7</IdProduto>
+<DescricaoProduto>Sopa de Cebola Knorr</DescricaoProduto>
+<Situacao>true</Situacao>
+<IdSubcategoria>9</IdSubcategoria>
+<IdCategoria>5</dCategoria>
+
+
+<IdProduto>24</IdProduto>
+<DescricaoProduto>Carne Friboi  picanha</DescricaoProduto>
+<Situacao>true</Situacao>
+<IdSubcategoria>11</IdSubcategoria>
+<IdCategoria>12</dCategoria>
+
+
+<IdProduto>15</IdProduto>
+<DescricaoProduto>Grão de Bico</DescricaoProduto>
+<Situacao>true</Situacao>
+<IdSubcategoria>8</IdSubcategoria>
+<IdCategoria>1</dCategoria>
+
+
+<IdProduto>2</IdProduto>
+<DescricaoProduto>Cereal Nestlê</DescricaoProduto>
+<Situacao>true</Situacao>
+<IdSubcategoria>4</IdSubcategoria>
+<IdCategoria>1</dCategoria>

@@ -1,0 +1,29 @@
+"IdProduto" : 10,
+"DescricaoProduto" : "Coca-Cola 2L",
+"Situacao" : true,
+"IdSubcategoria" : 7,
+"IdCategoria" : 6
+
+"IdProduto" : 15,
+"DescricaoProduto" : "Grão de Bico",
+"Situacao" : true,
+"IdSubcategoria" : 8,
+"IdCategoria" : 1
+
+"IdProduto" : 12,
+"DescricaoProduto" : "Sopa de Cebola Knorr.",
+"Situacao" : true,
+"IdSubcategoria" : 9,
+"IdCategoria" : 5
+
+"IdProduto" : 4,
+"DescricaoProduto" : "Carne Friboi  picanha",
+"Situacao" : true,
+"IdSubcategoria" : 11,
+"IdCategoria" : 12
+
+"IdProduto" : 2,
+"DescricaoProduto" : "Cereal Nestlê",
+"Situacao" : true,
+"IdSubcategoria" : 4,
+"IdCategoria" : 1

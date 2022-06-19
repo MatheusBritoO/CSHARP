@@ -1,0 +1,24 @@
+"IdIdioma" : 1,
+"SiglaIdioma" : "PT-BR",
+"DescricaoIdioma" : "Português",
+"Situacao" : true,
+
+"IdIdioma" : 2,
+"SiglaIdioma" : "FR",
+"DescricaoIdioma" : "Francês",
+"Situacao" : true,
+
+"IdIdioma" : 3,
+"SiglaIdioma" : "EN-US",
+"DescricaoIdioma" : "Inglês",
+"Situacao" : true,
+
+"IdIdioma" : 4,
+"SiglaIdioma" : "ES",
+"DescricaoIdioma" : "Espanhol",
+"Situacao" : true,
+
+"IdIdioma" : 5,
+"SiglaIdioma" : "DE",
+"DescricaoIdioma" : "Alemão",
+"Situacao" : true,

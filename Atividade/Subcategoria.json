@@ -1,0 +1,24 @@
+"IdSubcategoria" : 8,
+"DescricaoSubcategoria" : "Grãos",
+"Situacao" : true,
+"IdCategoria" : 1
+
+"IdSubcategoria" : 8,
+"DescricaoSubcategoria" : "Carne Conservada",
+"Situacao" : true,
+"IdCategoria" : 10
+
+"IdSubcategoria" : 7,
+"DescricaoSubcategoria" : "Refrigerantes Garrafa",
+"Situacao" : true,
+"IdCategoria" : 6
+
+"IdSubcategoria" : 9,
+"DescricaoSubcategoria" : "Sopas",
+"Situacao" : true
+"IdCategoria" : 5
+
+"IdSubcategoria" : 4,
+"DescricaoSubcategoria" : "Cereais",
+"Situacao" : true
+"IdCategoria" : 1,

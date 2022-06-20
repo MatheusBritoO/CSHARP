@@ -1,8 +1,8 @@
 <IdBanco>63</IdBanco>
 <CodigoBanco>2400</CodigoBanco>
 <DescricaoBanco>"Banco do Brasil"<DescricaoBanco/>
-<SiteBanco>"bancodobrasil.com" </DescricaoBanco>
-<Situacao>true</Situacao>
+<SiteBanco>"bancodobrasil.com" </Banco>
+  <Situacao>true</Situacao>
 
 <IdBanco>53</IdBanco>
 <CodigoBanco>3124</CodigoBanco>
